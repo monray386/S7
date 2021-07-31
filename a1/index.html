@@ -13,48 +13,45 @@
     <title>Activity: Developer Portfolio</title>
   </head>
   <body>
-
-    <div class="portfolio">
-      <div class="picture">
-        <img src="./images/pic2.jpg" class="img-fluid" alt="image not available">
-      </div>
-      
-      <div class="headings">
-        <H1>Ray Ocampo</H1>
-        <H3>Junior Web Developer</H3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Porro quis recusandae earum adipisci at maxime nam nisi quos, provident quisquam repellat nulla, eveniet, perferendis assumenda repudiandae dicta explicabo, nihil quo dolore harum doloremque ullam praesentium? Sapiente ducimus quisquam esse unde, officia iure fuga optio tempore facilis magni praesentium voluptates laudantium doloremque error totam, id commodi laborum asperiores beatae qui, dolor. Aperiam suscipit sint modi, non dolores hic quidem debitis. A saepe, assumenda ex officiis ullam. Ipsum labore, sit consequatur saepe neque ipsa nulla placeat. Ad officia esse accusantium asperiores deserunt, nam laudantium earum facere ex eligendi ratione suscipit numquam, labore.</p>
-      </div>
-
-      <h4>Contact</h4>
-
-      <div class="form-group">
-        <label for="txt">Full Name</label>
-          <input type="email" name="email" id="email" class="form-control" autocomplete="off">
-      </div>
-
-            <div class="form-group">
-        <label for="txt">Email Address</label>
-          <input type="email" name="email" id="email" class="form-control" autocomplete="off">
-      </div>
-
-            <div class="form-group">
-        <label for="txt">Message</label>
-          <input type="email" name="email" id="email" class="form-control"  autocomplete="off">
-      </div>
-
-      <button class="btn btn-success">Send</button>
-
-    </div>
-
-    <div class="picture">
-
-  
-
-      
+            <div class="container-fluid">
+            <div class="text-center mb-4">       
+                <img width="200" class="rounded-circle" src="./images/pic2.jpg" alt="image unavailable">
+                <h2>Raymond Ocampo</h2>
+                <h4>Full-Stack Web Developer</h4>
+            </div>
+            <!-- description section -->
+            <div class="text-justify p-4">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci blanditiis perspiciatis error laborum ea temporibus ullam. Earum culpa odit, nulla perspiciatis repellendus, ullam eveniet ex
+            </div>
 
 
+            <!-- contact section form -->
+            <div class="p-4">
+                <h3 class="text-center">Contact</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" class="form-control" placeholder="Insert Full Name Here">
+                    </div>
 
-    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" class="form-control" placeholder="Insert Email Here">
+                    </div>
+                    
+                    <!-- message area section -->
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea cols="30" rows="5" class="form-control"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-success btn-block">Send</button>
+                </form>
+            </div>
+
+       </div>
+
+
 
 
 
